@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | LFS.dev</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script defer src="js/script.js"></script>
+    </head>
+    <body>
+        
+        <main>
+            <img src="./img/capa-login.jpg" class="capa">
+            <div class="content-login">
+                <img src="./img/logo.png" class="logo">
+                <form class="form-login">
+                    <p>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="seu_nome@mail.com" required>
+                    </p>
+
+                    <p>
+                        <label for="senha">Senha:</label>
+                        <input id="senha" type="password" placeholder="******" required>
+                    </p>
+                    <button onclick="faz_login(event)">Acessar</button>
+                </form>
+                <p>Não tem conta? <span>Cadastre-se</span></p>
+            </div>
+            
+        </main>
+    </body>
+</html>
