@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+}
+
+a {
+    color: #FFF;
+    font-size: 20pt;
+}
+
+.tamanho-carousel {
+    max-height: 500px;
+}
+
+.tamanho-carousel img {
+  height: 500px;
+}
